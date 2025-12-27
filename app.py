@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template_string, request, jsonify
 from groq import Groq
 
-app = Flask(__name__)
+app = FastAPI()
 
 # --- CONFIGURATION ---
 # Replace 'YOUR_GROQ_API_KEY' with your actual API key
